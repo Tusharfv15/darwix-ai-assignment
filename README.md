@@ -4,6 +4,24 @@
 
 ---
 
+## 🚀 Live Demo
+
+**[darwix-ai-assignment-gxfd77fquykbfjd2zadgzg.streamlit.app](https://darwix-ai-assignment-gxfd77fquykbfjd2zadgzg.streamlit.app/)**
+
+> First request may take ~20s for a cold start — Modal spins up the GPU container on demand.
+
+### Try these inputs
+
+| # | Text | Expected Emotion |
+|---|---|---|
+| 1 | `I just got promoted at work — this is the best day of my life!` | 🟡 joy · high |
+| 2 | `They cancelled my flight again. I've been waiting here for six hours.` | 🔴 anger · mid |
+| 3 | `I don't think I'll ever see him again.` | 🔵 sadness · high |
+| 4 | `I heard something outside. There's nobody else in the house.` | 🟣 fear · mid |
+| 5 | `The quarterly review is scheduled for Thursday at 2pm.` | ⚪ neutral · low |
+
+---
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -43,7 +61,7 @@ User Input (text)
         │
         ▼
 ┌───────────────────────────────────────────────┐
-│              EmpathyEngine (Modal A10G)       │
+│              EmpathyEngine (Modal A10G)        │
 │                                               │
 │  ┌─────────────────────────────────────────┐  │
 │  │  Step 1 — Emotion Detection             │  │
@@ -293,7 +311,6 @@ ENDPOINT_URL=https://<your-workspace>--empathy-engine-inference.modal.run
 ---
 
 ## Modal Deployment
-<img width="1867" height="758" alt="image" src="https://github.com/user-attachments/assets/ae68e837-bd64-41fa-9a05-026777f2a28a" />
 
 The entire backend (both models + API) is deployed as a single Modal app.
 

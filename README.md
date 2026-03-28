@@ -385,6 +385,9 @@ def inference(self, request: InferenceRequest):
 
 ### Deploy
 
+<img width="1863" height="833" alt="image" src="https://github.com/user-attachments/assets/021567fa-932b-4631-a490-ef21e4e05f16" />
+
+
 ```bash
 # Deploy to Modal (creates persistent endpoint)
 modal deploy modal_app.py

@@ -293,6 +293,7 @@ ENDPOINT_URL=https://<your-workspace>--empathy-engine-inference.modal.run
 ---
 
 ## Modal Deployment
+<img width="1867" height="758" alt="image" src="https://github.com/user-attachments/assets/ae68e837-bd64-41fa-9a05-026777f2a28a" />
 
 The entire backend (both models + API) is deployed as a single Modal app.
 

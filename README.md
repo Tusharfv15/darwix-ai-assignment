@@ -61,7 +61,7 @@ User Input (text)
         │
         ▼
 ┌───────────────────────────────────────────────┐
-│              EmpathyEngine (Modal A10G)        │
+│              EmpathyEngine (Modal A10G)       │
 │                                               │
 │  ┌─────────────────────────────────────────┐  │
 │  │  Step 1 — Emotion Detection             │  │
@@ -243,7 +243,7 @@ class EmpathyEngine:
 empathy_engine/
 ├── modal_app.py       # Modal app — EmpathyEngine class, GPU functions, FastAPI endpoint
 ├── voice_mapper.py    # Emotion → Parler-TTS description mapping (pure Python)
-├── app.py             # Streamlit frontend
+├── streamlit_app.py             # Streamlit frontend
 ├── .env               # ENDPOINT_URL (not committed)
 ├── requirements.txt   # Local dependencies
 └── README.md

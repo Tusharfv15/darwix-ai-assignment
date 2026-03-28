@@ -12,13 +12,13 @@
 
 ### Try these inputs
 
-| # | Text | Expected Emotion |
-|---|---|---|
-| 1 | `I just got promoted at work — this is the best day of my life!` | 🟡 joy · high |
-| 2 | `They cancelled my flight again. I've been waiting here for six hours.` | 🔴 anger · mid |
-| 3 | `I don't think I'll ever see him again.` | 🔵 sadness · high |
-| 4 | `I heard something outside. There's nobody else in the house.` | 🟣 fear · mid |
-| 5 | `The quarterly review is scheduled for Thursday at 2pm.` | ⚪ neutral · low |
+| # | Text |
+|---|---|
+| 1 | `I just got promoted at work — this is the best day of my life!` |
+| 2 | `They cancelled my flight again. I've been waiting here for six hours.` |
+| 3 | `I don't think I'll ever see him again.` |
+| 4 | `I heard something outside. There's nobody else in the house.` |
+| 5 | `The quarterly review is scheduled for Thursday at 2pm.` |
 
 ---
 
